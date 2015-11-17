@@ -28,18 +28,21 @@ public class Rogue extends Character {
     }
     
     public String about(){
-      return "I am the rogue, my greatest weapon is my silence. Pick me if you want to be a ninja."
+      return "I am the rogue, my greatest weapon is my silence. Pick me if you want to be a ninja.";
     }
     
     public void specialize(){
-      attack = .8;
-      deffense = 25;
+      _attack = .8;
+      _defense = 25;
     }
     
     public void normalize(){
-      attack = .4;
-      defense = 40;
+      _attack = .4;
+      _defense = 40;
     }
 
 }//end class Rogue
 
+    Status API Training Shop Blog About Pricing 
+
+    © 2015 GitHub, Inc. Terms Privacy Security Contact Help 
