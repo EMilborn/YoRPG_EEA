@@ -26,19 +26,22 @@ public class Mage extends Character {
 	this();
 	_name = name;
     }
-public string about(){
-  return "I am the mystical mage, and I am capable of incredible feats. Pick me if you wish to focus on potions and spells"
+public String about(){
+  return "I am the mystical mage, and I am capable of incredible feats. Pick me if you wish to focus on potions and spells";
 }
 
 public void specialize(){
-  _defense = 15;
+  _defense = 10;
   _attack = 1.2;
 }
 
-public void specialize(){
+public void normalize(){
 	_defense = 40;
 	_attack = .4;
 }
 
 }//end class Mage
 
+    Status API Training Shop Blog About Pricing 
+
+    © 2015 GitHub, Inc. Terms Privacy Security Contact Help 
